@@ -1,0 +1,19 @@
+Timestamp,Source_Type,Source_Name,Question,Answer
+2025-03-21 00:21:53,youtube,https://www.youtube.com/watch?v=iA-UhFlIP80,what is the main topic ,"The video discusses Retrieval Augmented Generation (RAG) and how to implement it using a vector database (Chroma), cosine similarity, and a large language model (OpenAI).  It explains the three components of RAG: retriever, augmentation, and generation.  The video focuses on building a system to answer user questions based on a set of provided documents (15 in the example).
+"
+2025-03-21 00:22:15,youtube,https://www.youtube.com/watch?v=iA-UhFlIP80,so can you explain this in detail,"This video demonstrates how to build a Retrieval Augmented Generation (RAG) system.  RAG has three components:
+
+1. **Retrieval:** This component finds documents relevant to the user's query.  In the example, when a user asks about a business's services, the retriever searches the business's website to find the page listing those services.
+
+2. **Augmentation:** The retrieved document is used to augment the original query.  The relevant information from the document is added to the user's initial query.  So, the user's question combined with the information from the website about services forms the augmented query.
+
+3. **Generation:** The augmented query is passed to a generative model (like GPT 3.5).  The model uses both the original query and the retrieved information to generate an accurate response.
+
+The video also shows how to implement this using a Jupyter notebook, chains, and a vector database to store embeddings of the website's content.  The retriever uses these embeddings to find the most similar documents to the user's query.  The demonstration uses OpenAI's GPT 3.5 model with a temperature of 0.4 and a maximum of 500 tokens for the generated response.
+"
+2025-03-21 00:25:30,pdf,prashant_resume.pdf,what is this pdf,"This PDF is a resume for Prashant Singh, highlighting his education, work experience, skills, and projects in machine learning and related fields.
+"
+2025-03-21 00:25:47,pdf,prashant_resume.pdf,how many years of experiance he has,"Based on the provided resume, Prashant Singh has had two internships: one from January 2024 to July 2024 (Lsoys Technologies) and another from July 2024 to the present (QubitNets Technologies).  This totals approximately 1 year of experience.
+"
+2025-03-21 00:26:26,youtube,https://www.youtube.com/watch?v=iA-UhFlIP80,what is the main topic,"The main topic is how Retrieval Augmented Generation (RAG) works, specifically focusing on how to use a vector store (like ChromaDB) as a retriever to enhance Large Language Model (LLM) responses with external data.  The video demonstrates this process using website data, cosine similarity for document retrieval, and OpenAI's LLM for generating responses.
+"
