@@ -18,6 +18,10 @@ This application uses a RAG (Retrieval-Augmented Generation) architecture to pro
 3. **Retrieval**: When a question is asked, the system retrieves the most relevant chunks from the vector store.
 4. **Generation**: Gemini 1.5 Pro generates a response based on the retrieved context and the user's question.
 
+## Sample Run
+![RAG](https://github.com/user-attachments/assets/f0e04053-05b9-42ca-8bdb-373bc713f905)
+
+
 ## Requirements
 
 - Python 3.8+
