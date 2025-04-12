@@ -19,7 +19,7 @@ from youtubesearchpython import Video
 load_dotenv()
 
 # Get API key from environment variables
-GEMINI_API_KEY = "GEMINI_API_KEY"
+GEMINI_API_KEY = "AIzaSyADtXOCgwP1REFp5gyH6FjIUNH0vxeKjx8"
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
